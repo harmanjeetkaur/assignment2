@@ -58,11 +58,11 @@ namespace Assignment1Furniture
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "738248841276-h2e895su3vqoledvdt7qt8g8neg7svtr.apps.googleusercontent.com",
+                ClientSecret = "HtgMKb7rUimDCBQ9S3_ucKfM"
+            });
         }
     }
 }
