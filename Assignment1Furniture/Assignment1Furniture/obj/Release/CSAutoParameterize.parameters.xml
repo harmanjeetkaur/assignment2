@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="data source=assignment1-harman.database.windows.net;initial catalog=assignment1-harman;persist security info=True;user id=harmanjeet;password=Gioneev4s!!;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Harman\\Desktop\\Sem\ 3\\ASP\.net\\assignment1\\Assignment1Furniture\\Assignment1Furniture\\Assignment1Furniture\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
