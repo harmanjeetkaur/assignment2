@@ -54,9 +54,9 @@ namespace Assignment1Furniture
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+             appId: "138680256838723",
+              appSecret: "00c168bf493f2af0f7c2d771bdb8960b");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
