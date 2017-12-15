@@ -46,9 +46,9 @@ namespace Assignment1Furniture
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+                clientId: "25724521-a196-49be-a568-89b8609969e4",
+                clientSecret: "bjcWPQG6076%|rsxfCUY8[$");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
