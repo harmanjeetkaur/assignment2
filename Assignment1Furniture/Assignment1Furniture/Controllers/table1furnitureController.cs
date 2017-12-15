@@ -10,7 +10,7 @@ using Assignment1Furniture.Models;
 
 namespace Assignment1Furniture.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Administrator")]
     public class table1furnitureController : Controller
     {
         private Assignment1FurnitureModel db = new Assignment1FurnitureModel();
